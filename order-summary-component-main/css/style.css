@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: hsl(229, 40%, 92%);
+    width: 100%;
+}
+.x{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: inherit;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 20px;
+    gap: 2rem;
+    height: 35rem;
+    width: 28rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500, 700, 900;
+     
+}
+
+.run svg {
+    border-radius: 20px 20px 0 0;
+    width: 28rem;
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20rem;
+    gap: 1rem;
+}
+.a p{
+    color: hsl(224, 23%, 55%);
+}
+
+.b {
+    display: flex;
+    gap: 1rem;
+}
+
+.b .y {
+    display: flex;
+    flex-direction: column;
+}
+
+.b nav {
+    text-align: center;
+    color: blue;
+}
+.y span{
+    color: hsl(224, 23%, 55%);
+}
+.z{
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 1rem;
+    width: 24rem;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.c nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+
+}

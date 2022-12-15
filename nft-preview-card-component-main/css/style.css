@@ -1,0 +1,98 @@
+ body {
+     background: hsl(217, 54%, 11%);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+
+
+ }
+
+ .container {
+     background-color: hsl(216, 50%, 16%);
+     padding: 2rem;
+     border-radius: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     font-family: "[Outfit](https://fonts.google.com/specimen/Outfit)";
+     width: 20rem;
+     opacity: 0.7;
+     position: absolute;
+     height: 40rem;
+ }
+
+ .container img {
+     border-radius: 10px;
+     width: 20rem;
+
+ }
+
+ .test {
+
+     font-family: outfit;
+     font-weight: 300, 400, 600;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .test h1 {
+     color: #fff;
+
+ }
+
+ .test p {
+     font-size: 18px;
+     color: hsl(215, 51%, 70%);
+ }
+
+ .run {
+     display: flex;
+     gap: 5rem;
+     border-bottom: 1px solid hsl(215, 51%, 70%);
+
+ }
+
+ .run .x {
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+ }
+
+ .y {
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+ }
+
+ .x h2 {
+     color: aqua;
+ }
+
+ .y p {
+     color: hsl(215, 51%, 70%);
+ }
+
+ .z {
+     display: flex;
+     gap: 1.5rem;
+     padding: 20px;
+     justify-content: left;
+     align-items: flex-end;
+}
+
+ .z img {
+     width: 6vh;
+     border: 2px solid #fff;
+     border-radius: 50%;
+
+ }
+
+ .z p {
+     color: hsl(215, 51%, 70%);
+ }
+
+ .z p span {
+     color: #fff;
+ }
