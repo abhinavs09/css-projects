@@ -185,10 +185,10 @@ body {
 
 .v {
     width: 12rem;
-    height: 20rem;
+    height: 3rem;
     background-color: rgb(255, 255, 255);
     position: relative;
-    top: -15rem;
+    top: 3rem;
     left: 21rem;
     z-index: 1;
     border-radius: 0 0 15px 15px;
